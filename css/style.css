@@ -8,7 +8,6 @@ header
     margin-top: 0px;
     padding: 30px;
     border-bottom: solid #aaa 5px;
-    outline: blue dotted 2px;
     height: 45px;
 }
 header > img
@@ -36,7 +35,78 @@ header > h2
     font-size: 8px;
 }
 /* BODY */
+main
+{
+    outline: blue 2px dotted;
+}
+main > h3
+{
+    margin: 60px 0px 0px 0px;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+main > h4
+{
+    color: lightgray;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+#print
+{
+    float:right;
+}
+#hero
+{
+    width: 960px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 main > p
 {
+    text-indent: 28px;
     font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+    line-height: 20px;
+    color: rgb(83, 83, 83);
+}
+main > div
+{
+}
+#paper
+{
+    width: 960px;
+    position: absolute;
+    z-index: -10;
+}
+#formBox
+{
+    width: 960px;
+    height: 325px;
+}
+form
+{
+    margin-top: 25px;
+    float: left;
+    width: 450px;
+    height: 325px;
+}
+#rightBox > input
+{
+    margin-left: 0px;
+}
+input
+{
+    position: relative;
+    margin-top: 19px;
+    margin-left: 65px;
+}
+label
+{ 
+    display: block;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 22px;
+    color: rgb(83, 83, 83);
 }
