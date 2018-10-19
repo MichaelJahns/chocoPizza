@@ -1,4 +1,183 @@
-h1
+body
 {
-    color: red;
+    width: 960px;
+    margin: 0px auto;
+}
+header
+{
+    margin-top: 0px;
+    padding: 30px;
+    border-bottom: solid #aaa 15px;
+    height: 45px;
+}
+header > img
+{
+    float:left;
+    margin: 0px 10px 50px -30px;
+}
+header > nav
+{
+    float: right;
+    margin-top: -30px;
+}
+nav > img:nth-child(6)
+{
+    margin-right: 10px;
+}
+header > h1
+{
+    font-family: 'Yellowtail', cursive;
+    font-size: 35px;
+    font-weight: bold;
+}
+header > h2
+{
+    font-size: 8px;
+}
+/* BODY */
+main > h3
+{
+    margin: 60px 0px 0px 0px;
+    font-size: 46px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+main > h4
+{
+    color: lightgray;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+h4:last-child
+{
+    float: right;
+    color: lightgray;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+#print
+{
+    float:right;
+}
+#hero
+{
+    width: 960px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+main > p
+{
+    text-indent: 28px;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+    line-height: 24px;
+    color: rgb(83, 83, 83);
+
+}
+#paper
+{
+    width: 960px;
+    position: absolute;
+    z-index: -10;
+}
+#formBox
+{
+    width: 960px;
+    height: 325px;
+}
+form
+{
+    margin-top: 25px;
+    float: left;
+    width: 450px;
+    height: 325px;
+}
+#shoppingList2 > input
+{
+    margin-left: 0px;
+}
+input
+{
+    position: relative;
+    margin-top: 19px;
+    margin-left: 65px;
+}
+label
+{ 
+    display: block;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 22px;
+    color: rgb(83, 83, 83);
+}
+section
+{
+margin-top: 40px;
+border-top: #aaa 15px solid;
+}
+section > img
+{
+    float:left;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+section > h5
+{
+    color:rgb(83, 83, 83);
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+section > p
+{
+    font-size: 18px;
+    width: 700px;
+    color:rgb(83, 83, 83);
+}
+section > button
+{
+    float: right;
+    margin-top: -60px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(175, 79, 79);
+    color: white;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    letter-spacing: .5px;
+
+}
+footer
+{
+    margin-top: 80px;
+    margin-bottom: 70px;
+    border-top: .5px lightgray solid;
+}
+footer > img
+{
+    display: block;
+    width: 30px;
+    margin-top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px white solid;
+}
+footer > p
+{
+    text-align: center;
+    margin-top: 5px;
+    color: lightgray;
+    font-size: 14px;
+}
+footer p:first-child
+{
+    margin-top:px;
 }
