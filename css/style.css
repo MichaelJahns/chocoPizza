@@ -13,7 +13,7 @@ header
 header > img
 {
     float:left;
-    margin: 0px 10px 50px 0px;
+    margin: 0px 10px 50px -30px;
 }
 header > nav
 {
@@ -38,12 +38,21 @@ header > h2
 main > h3
 {
     margin: 60px 0px 0px 0px;
-    font-size: 32px;
+    font-size: 46px;
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
 }
 main > h4
 {
+    color: lightgray;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+h4:last-child
+{
+    float: right;
     color: lightgray;
     text-transform: uppercase;
     font-size: 12px;
@@ -63,15 +72,12 @@ main > h4
 main > p
 {
     text-indent: 28px;
-    font-size: 24x;
+    font-size: 21px;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 30px;
     line-height: 24px;
     color: rgb(83, 83, 83);
 
-}
-main > div
-{
 }
 #paper
 {
@@ -121,6 +127,7 @@ section > img
 }
 section > h5
 {
+    color:rgb(83, 83, 83);
     font-weight: bold;
     font-size: 22px;
     margin-top: 20px;
@@ -130,6 +137,7 @@ section > p
 {
     font-size: 18px;
     width: 700px;
+    color:rgb(83, 83, 83);
 }
 section > button
 {
@@ -150,6 +158,7 @@ section > button
 footer
 {
     margin-top: 80px;
+    margin-bottom: 70px;
     border-top: .5px lightgray solid;
 }
 footer > img
@@ -160,4 +169,15 @@ footer > img
     margin-left: auto;
     margin-right: auto;
     border: 10px white solid;
+}
+footer > p
+{
+    text-align: center;
+    margin-top: 5px;
+    color: lightgray;
+    font-size: 14px;
+}
+footer p:first-child
+{
+    margin-top:px;
 }
